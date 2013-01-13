@@ -15,13 +15,13 @@ $(function(){
 
 
 <div class ="span12" id ="content">
-	<div>
-		<img src="<?=base_url();?>public/images/about.png" class ="photo" />
-		<img src="<?=base_url();?>public/images/about.png" class ="photo" />
-		<img src="<?=base_url();?>public/images/about.png" class ="photo" />
-		<img src="<?=base_url();?>public/images/about.png" class ="photo" />
-		<img src="<?=base_url();?>public/images/about.png" class ="photo" />
-		<img src="<?=base_url();?>public/images/about.png" class ="photo" />
+	<div id="content-inner">
+		<img src="<?=base_url();?>public/images/slidephoto1.jpg" class ="content-unit" id ="first"/>
+		<img src="<?=base_url();?>public/images/slidephoto2.jpg" class ="content-unit" />
+		<img src="<?=base_url();?>public/images/about.png" class ="content-unit" />
+		<img src="<?=base_url();?>public/images/about.png" class ="content-unit" />
+		<img src="<?=base_url();?>public/images/about.png" class ="content-unit" />
+		<img src="<?=base_url();?>public/images/about.png" class ="content-unit" />
 	</div>
 </div>
 
