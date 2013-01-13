@@ -1,5 +1,34 @@
-<link rel="stylesheet" type="text/css" href="<?=base_url(); ?>public/css/home.css">
-<div id="myCarousel" class="carousel slide">
+<link rel="stylesheet" type="text/css" href="<?=base_url(); ?>public/css/home_style.css">
+
+<script type="text/javascript">
+$(function(){
+	$('#content').mousewheel(function(event, delta){
+		this.scrollLeft -= (delta*30);
+		event.preventDefault();
+	});
+});
+</script>
+
+<div class ="span3" id ="header">
+	<img src="<?=base_url();?>public/images/Austereside.jpg" />
+</div>
+
+
+<div class ="span12" id ="content">
+	<div>
+		<img src="<?=base_url();?>public/images/about.png" class ="photo" />
+		<img src="<?=base_url();?>public/images/about.png" class ="photo" />
+		<img src="<?=base_url();?>public/images/about.png" class ="photo" />
+		<img src="<?=base_url();?>public/images/about.png" class ="photo" />
+		<img src="<?=base_url();?>public/images/about.png" class ="photo" />
+		<img src="<?=base_url();?>public/images/about.png" class ="photo" />
+	</div>
+</div>
+
+
+
+
+<!-- <div id="myCarousel" class="carousel slide">
 	<div class="carousel-inner">
 		<div class="item">
 			<img src="public/images/mainphoto.jpg" alt="">
@@ -21,7 +50,6 @@
 			<img src="public/images/mainphoto.jpg" alt="">
 			<div class="container">
 				<div class="carousel-caption">
-
 				</div>
 			</div>
 		</div>
@@ -47,11 +75,6 @@
 
 <div class ="clear"></div>
 
-<div class ="row-fluid" id ="party">
-	<div class ="span10">
-		<!-- 		<center><img src="public/images/partybanner.jpg"></center>l -->
-	</div>
-</div>
 
 <div class ="clear"></div>
 
@@ -103,4 +126,4 @@
 // 	$('.thumbnails > span4').css("margin", "100px");
 
 // });
-</script>
+</script> -->

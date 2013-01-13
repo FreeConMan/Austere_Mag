@@ -1,3 +1,33 @@
+#content {
+	width: 100%;
+	height: 800px;
+	background-color: #fff;
+	float: left;
+	overflow-x: hidden;
+}
+
+
+#content div {
+	width: 9000px;
+}
+
+.photo {
+	float:left;
+	display: inline;
+	height: 100%;
+}
+
+#header {
+	background-color: #000;
+	border: 1px solid #000;
+	height: 800px;
+	left: 60px;
+	min-width: 272px;
+	position: absolute;
+	top: 44px;
+}
+
+
 #nails {
 	margin-top: 10px;
 	margin-left: 0;
@@ -18,7 +48,7 @@
 	border-top: 1px solid #fff;
 	height: 268px;
 
-	background-image: url(../images/partybanner.jpg);
+/*	background-image: url(../images/partybanner.jpg);*/
 	background-size: 100%;
 	margin: 10px 0;
 }
