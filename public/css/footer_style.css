@@ -1,4 +1,9 @@
 #footer {
 	position: absolute;
-	top: 880px;
+	top: 860px;
+}
+
+.breadcrumb {
+	margin:0;
+	padding: 0;
 }
