@@ -3,15 +3,22 @@
 <script type="text/javascript">
 $(function(){
 	$('#content').mousewheel(function(event, delta){
-		this.scrollLeft -= (delta*30);
+		this.scrollLeft -= (delta*200);
 		event.preventDefault();
 	});
+});
+</script>
+
+<script type="text/javascript">
+$(function(){
+	$('#welcome').popover();
 });
 </script>
 
 
 <div class ="span3" id ="header">
 	<img src="<?=base_url();?>public/images/Austereside.jpg" />
+	<!-- 	<img src="<?=base_url();?>public/images/fblogo.png" class ="social"/> -->
 </div>
 
 
@@ -19,7 +26,10 @@ $(function(){
 	<div id="content-inner" data-spy="scroll" data-target="">
 
 		<div class ="content-unit" id ="one">
-			<h1 class ="pull-left" id ="one-text">welcome <i class ="icon-angle-right"></i></h1>
+			<h1 class ="pull-left" id ="one-text"><a href="#">welcome <i class ="icon-angle-right"></i></a></h1>
+			<div class ="popover">
+				<h2>Hello there</h2>
+			</div>
 		</div>
 		<div class ="content-unit" id ="two">
 		</div>
@@ -45,4 +55,3 @@ $(function(){
 		</div>
 	</div>
 </div>
-

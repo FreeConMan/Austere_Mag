@@ -4,3 +4,23 @@
 	margin: 0;
 	padding: 0;
 }
+
+.modal-header {
+	background-color: #000;
+}
+
+.modal-body {
+	background-color: #000;
+}
+
+#myModal:focus {
+	border: 1px solid #fff;
+}
+
+.close {
+	color: #fff;
+}
+
+label {
+	color: #fff;
+}
